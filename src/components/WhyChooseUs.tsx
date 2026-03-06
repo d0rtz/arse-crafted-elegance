@@ -23,7 +23,7 @@ const features = [
     ),
   },
   {
-    title: 'Compromiso Medioambiental',
+    title: 'Comprometidos con el medio ambiente',
     desc: 'Certificación PEFC, cadena de custodia sostenible y producción responsable.',
     icon: (
       <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1" className="text-gold">
