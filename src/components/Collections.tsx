@@ -1,14 +1,10 @@
 import { useInView } from '@/hooks/useInView';
 import lacadas from '@/assets/collection-lacadas.jpg';
 import laminadas from '@/assets/collection-laminadas.jpg';
-import cristal from '@/assets/collection-cristal.jpg';
-import medida from '@/assets/collection-medida.jpg';
 
 const collections = [
   { name: 'Puertas Lacadas', img: lacadas },
   { name: 'Puertas Laminadas', img: laminadas },
-  { name: 'Puertas de Cristal', img: cristal },
-  { name: 'Puertas a Medida', img: medida },
 ];
 
 const Collections = () => {

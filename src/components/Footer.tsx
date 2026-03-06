@@ -26,7 +26,7 @@ const Footer = () => {
         {/* Col 3: Collections */}
         <div>
           <p className="font-nav text-xs tracking-[0.2em] uppercase text-gold mb-4">Colecciones</p>
-          {['Lacadas', 'Laminadas', 'Cristal', 'A medida'].map(l => (
+          {['Lacadas', 'Laminadas'].map(l => (
             <a key={l} href="#" className="block font-nav text-sm text-ivory/40 hover:text-gold transition-colors mb-2">{l}</a>
           ))}
         </div>
