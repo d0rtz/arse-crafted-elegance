@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from '@/assets/logo.png';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -21,8 +22,8 @@ const Navbar = () => {
     >
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 flex items-center justify-between h-20">
         {/* Logo */}
-        <a href="#" className="font-display text-2xl font-semibold tracking-[0.15em] text-gold">
-          ARSE
+        <a href="#" className="flex items-center">
+          <img src={logo} alt="ARSE Logo" className="h-8 w-auto" />
         </a>
 
         {/* Desktop Menu */}
